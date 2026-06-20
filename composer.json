@@ -13,8 +13,11 @@
       "email": "chris@combat.nl"
     }
   ],
-  "php": "~8.2.0 || ~8.3.0",
+  
   "require": {
+    "php": "~8.2.0 || ~8.3.0"
+  },
+  "conflict": {
     "pimcore/admin-ui-classic-bundle": "<1.7 || > 1.7.99",
     "pimcore/admin-ui-classic-light-theme-bundle": "<1.0 || > 1.0.99",
     "pimcore/asset-metadata-class-definitions": "<2.2 || > 2.2.99",
